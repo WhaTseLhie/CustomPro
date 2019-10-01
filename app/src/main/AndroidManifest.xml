@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.custompro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.MainActivity"
+            android:label="CustomPro Login" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/api_key" />
+
+        <activity
+            android:name=".home.CustomPro"
+            android:label="@string/title_activity_custom_pro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".register.RegisterActivity"
+            android:label="CustomPro Registration"
+            android:parentActivityName=".login.MainActivity" />
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:label="My Profile"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".settings.AccountSettingsActivity"
+            android:label="Account Settings"
+            android:parentActivityName=".settings.AccountSettingsActivity" />
+        <activity
+            android:name=".shop.OpenShopActivity"
+            android:label="Open Shop"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".shop.product.AddProductActivity"
+            android:label="Add Product"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity
+            android:name=".shop.ShopRegisterActivity"
+            android:label="Shop Registration"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity
+            android:name=".home.search.post.AddPostActivity"
+            android:label="CustomPro Post"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".shop.request.AddRequestActivity"
+            android:label="Add Request"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity
+            android:name=".shop.request.RequestActivity"
+            android:label="Request Information"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity
+            android:name=".myrequest.MyRequestActivity"
+            android:label="My Orders"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".shop.product.ViewProductActivity"
+            android:label="Sample Products"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity
+            android:name=".home.search.post.ViewPostActivity"
+            android:label="CustomPro Posts"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:label="@string/title_activity_admin_acitivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mypost.MyPostActivity"
+            android:label="My Post"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".home.search.post.bids.offer.OfferPostActivity"
+            android:label="Offer Information" />
+        <activity
+            android:name=".home.search.post.ViewOfferActivity"
+            android:label="View Offer Information" />
+        <activity
+            android:name=".myorder.MyOrderActivity"
+            android:label="My Orders"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".mynotification.NotificationActivity"
+            android:label="My Notifications"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".admin.accounts.AdminRegisterActivity"
+            android:label="Add New Account"
+            android:parentActivityName=".admin.AdminActivity" />
+        <activity
+            android:name=".shop.nwo.MakerViewOrderActivity"
+            android:label="Order Information"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity
+            android:name=".mynwo.NewWorldOrderActivity"
+            android:label="My Orders"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".shop.nwo.AddNewWorldOrderActivity"
+            android:label="Direct Order"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity android:name=".shop.nwo.SeekerViewOrderActivity" />
+        <activity
+            android:name=".shop.nwo.NewWorldOfferRequestActivity"
+            android:label="Add Offer" />
+        <!-- android:parentActivityName=".shop.nwo.MakerViewOrderActivity"/> -->
+        <activity
+            android:name=".home.search.post.EditPostActivity"
+            android:label="Edit Post" />
+        <!-- android:parentActivityName=".home.search.post.ViewPostActivity"/> -->
+        <activity
+            android:name=".mywallet.WalletActivity"
+            android:label="My Wallet"
+            android:parentActivityName=".home.CustomPro" />
+        <activity
+            android:name=".shop.AddAdvertisementActivity"
+            android:label="Post Advertisement"
+            android:parentActivityName=".shop.OpenShopActivity" />
+        <activity android:name=".home.search.post.ViewPostAdActivity"
+            android:parentActivityName=".home.CustomPro"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,284 @@
+<resources>
+    <string name="app_name">Custom Pro</string>
+    <string name="title_activity_custom_pro">CustomPro</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">AIzaSyCIZdYLTHp646jYJx229tCosz_7PxXhCxo</string>
+    <string-array name="email_existing">
+        <item>Another Email Address</item>
+        <item>Existing Email Address</item>
+    </string-array>
+    <string-array name="contact_existing">
+        <item>Another Contact Number</item>
+        <item>Existing Contact Number</item>
+    </string-array>
+    <string-array name="search_filter">
+        <item>User Posts</item>
+        <item>Shops</item>
+    </string-array>
+    <string-array name="freeSubscription">
+        <item>30 Days Free Trial</item>
+        <item>\u20B1 99/30 Days + 30 Days Free Trial</item>
+        <item>\u20B1 199/2 Months + 30 Days Free Trial</item>
+        <item>\u20B1 499/6 Months + 30 Days Free Trial</item>
+        <item>\u20B1 999/1 Year + 30 Days Free Trial</item>
+    </string-array>
+    <string-array name="exSubscription">
+        <item>\u20B1 99/30 Days</item>
+        <item>\u20B1 199/2 Months</item>
+        <item>\u20B1 499/6 Months</item>
+        <item>\u20B1 999/1 Year</item>
+    </string-array>
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>T-Shirt</item>
+        <item>Hats</item>
+        <item>Hoodie or Jacket</item>
+        <!--<item>Bags</item>
+        <item>Pillow</item>-->
+    </string-array>
+    <string-array name="nocat">
+        <item>No Category Selected</item>
+    </string-array>
+    <string-array name="notype">
+        <item>No Type Selected</item>
+    </string-array>
+    <string-array name="nosize">
+        <item>No Size Selected</item>
+    </string-array>
+    <!--<string-array name="shirt_type">
+        <item>Select Shirt Type</item>
+        <item>Gildan T-Shirt</item>
+        <item>Polo</item>
+    </string-array>-->
+    <string-array name="shirt_type">
+        <item>Select Shirt Type</item>
+        <item>Gildan T-Shirt</item>
+        <item>Polo</item>
+        <item>V-Neck Long Sleeve</item>
+        <item>V-Neck Men</item>
+        <item>V-Neck Women</item>
+        <item>Women T-shirt O-Neck</item>
+    </string-array>
+    <!--awd-->
+    <string-array name="bag_type">
+        <item>Select Bag Type</item>
+        <item>Drawstring Bag</item>
+        <item>School Status Bag</item>
+    </string-array>
+
+    <string-array name="hats_type">
+        <item>Select Hat Type</item>
+        <item>Baseball Cap</item>
+        <item>Flat Cap</item>
+    </string-array>
+    <string-array name="hoodie_type">
+        <item>Select Hoodie or Jacket Type</item>
+        <item>Sweater Hoodie</item>
+        <item>Turtleneck Jacket</item>
+    </string-array>
+    <!--awd-->
+    <string-array name="pillow_type">
+        <item>Select Pillow Type</item>
+        <item>Head Pillow</item>
+        <item>Square Pillow</item>
+    </string-array>
+    <string-array name="shirt_size">
+        <item>Select Shirt Size</item>
+        <item>XS   (44cm x 65cm)</item>
+        <item>S    (47cm x 68cm)</item>
+        <item>M    (50cm x 71cm)</item>
+        <item>L    (53cm x 73cm)</item>
+        <item>XL   (56cm x 76cm)</item>
+        <item>2XL  (59cm x 78cm)</item>
+    </string-array>
+    <!--awd-->
+    <string-array name="drawstring_bag_size">
+        <item>All Size   (Length x Width = 40cm x 35cm)</item>
+    </string-array>
+    <string-array name="school_status_bag_size">
+        <item>All Size   (38cm x 28cm x 10cm)</item>
+    </string-array>
+
+    <string-array name="baseball_cap_size">
+        <item>All Size   (56cm x 7cm x 12cm)</item>
+    </string-array>
+    <string-array name="flat_cap_size">
+        <item>Select Flat Cap Size</item>
+        <item>S    (54cm x 56cm)</item>
+        <item>M    (57cm x 59cm)</item>
+        <item>L    (59cm x 61cm)</item>
+    </string-array>
+    <string-array name="sweater_hoodie_size">
+        <item>Select Sweater Hoodie Size</item>
+        <item>XS   (58cm x 59cm)</item>
+        <item>S    (53cm x 63cm)</item>
+        <item>M    (56cm x 67cm)</item>
+        <item>L    (61cm x 70cm)</item>
+        <item>XL   (64cm x 73cm)</item>
+        <item>2XL  (66cm x 76cm)</item>
+    </string-array>
+    <string-array name="turtleneck_jacket_size">
+        <item>Select Turtleneck Jacket Size</item>
+        <item>XS   (50cm x 55cm)</item>
+        <item>S    (54cm x 57cm)</item>
+        <item>M    (58cm x 59cm)</item>
+        <item>L    (60cm x 61cm)</item>
+        <item>XL   (64cm x 62cm)</item>
+    </string-array>
+    <!--awd-->
+    <string-array name="head_pillow_size">
+        <item>All Size (46 x 70)</item>
+    </string-array>
+    <string-array name="square_pillow_size">
+        <item>All Size (40 x 40)</item>
+    </string-array>
+    <string-array name="status">
+        <item>Select Status</item>
+        <item>WORK-IN-PROGRESS</item>
+        <item>WORK-ON-HOLD</item>
+        <item>FAILED, PARTIALLY REFUNDED</item>
+        <item>FAILED, REFUNDED</item>
+        <item>FAILED</item>
+        <item>COMPLETE, AWAITING PICKUP</item>
+        <item>COMPLETE</item>
+    </string-array>
+    <string-array name="color">
+        <item>Select Color</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="shirt_option1">
+        <item>White Rib</item>
+        <item>Black Rib</item>
+        <item>Red Rib</item>
+        <item>Yellow Rib</item>
+        <item>Sports Grey Rib</item>
+        <item>Purple Rib</item>
+        <item>Fabric Rib</item>
+    </string-array>
+
+    <string-array name="shirt_option2">
+        <item>Microfiber</item>
+        <item>Axtatex</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+    <string-array name="bomber_jacket">
+        <item>XS   (49cm x 60cm)</item>
+        <item>S    (52cm x 62cm)</item>
+        <item>M    (55cm x 64cm)</item>
+        <item>L    (58cm x 66cm)</item>
+        <item>XL   (60cm x 69cm)</item>
+        <item>2XL  (64cm x 71cm)</item>
+        <item>3XL  (66cm x 73cm)</item>
+        <item>4XL  (69cm x 75cm)</item>
+        <item>5XL  (72cm x 77cm)</item>
+    </string-array>
+    <string-array name="bomber_jacket_option1">
+        <item>Hipolytex</item>
+    </string-array>
+    <string-array name="bomber_jacket_option2">
+        <item>White Rib</item>
+        <item>Black Rib</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string-array name="sweater_fullprint">
+        <item>XS   (50cm x 65cm)</item>
+        <item>S    (52cm x 66cm)</item>
+        <item>M    (54cm x 68cm)</item>
+        <item>L    (56cm x 70cm)</item>
+        <item>XL   (61cm x 74cm)</item>
+    </string-array>
+
+    <string-array name="sweater_fullprint_option1">
+        <item>With HOODIE</item>
+        <item>No HOODIE</item>
+    </string-array>
+
+    <string-array name="sweater_fullprint_option2">
+        <item>Hipolytex Rib</item>
+    </string-array>
+
+
+
+
+
+
+
+
+    <string-array name="baseball_option1">
+        <item>Hipolytex</item>
+        <item>Poly Canvas</item>
+    </string-array>
+    <string-array name="baseball_option2">
+        <item>Black Rel $amp Yarn</item>
+        <item>Cream Rel $amp Yarn</item>
+    </string-array>
+
+
+    <string-array name="bucket_option1">
+        <item>Hipolytex</item>
+        <item>Poly Canvas</item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="bucket_hat_size">
+        <item>All size(57cm x 4.5 x 14cm)</item>
+    </string-array>
+    <string-array name="bucket_option2">
+        <item>Black Yarn</item>
+        <item>Cream Yarn</item>
+    </string-array>
+
+    <string-array name="polo_shirt_option1">
+        <item>None</item>
+    </string-array>
+
+    <string-array name="polo_shirt_option2">
+        <item>Microfiber</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin_acitivity">AdminActivity</string>
+</resources>

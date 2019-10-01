@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_users"
+            android:icon="@drawable/ic_view_account"
+            android:title="All Accounts" />
+        <item
+            android:id="@+id/nav_all_shops"
+            android:icon="@drawable/ic_shop"
+            android:title="All Shops" />
+        <item
+            android:id="@+id/nav_all_post"
+            android:icon="@drawable/ic_post"
+            android:title="All Posts" />
+        <!--<item
+            android:id="@+id/nav_all_requests"
+            android:icon="@drawable/ic_home"
+            android:title="All Requests" />-->
+        <item
+            android:id="@+id/nav_all_order"
+            android:icon="@drawable/ic_order"
+            android:title="All Orders" />
+        <!--<item
+            android:id="@+id/nav_all_requests"
+            android:icon="@drawable/ic_order"
+            android:title="All Orders" />-->
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_eject_black"
+            android:title="Logout" />
+    </group>
+</menu>

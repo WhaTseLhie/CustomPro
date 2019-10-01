@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_wallet"
+            android:icon="@drawable/ic_wallet"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_post"
+            android:title="My Posts" />
+        <!--<item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_order"
+            android:title="My Orders" />-->
+        <!--<item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_home"
+            android:title="My Requests" />-->
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_store_black"
+            android:title="My Shop" />
+    </group>
+
+    <item android:title="MISCELLANEOUS" android:id="@+id/misc">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black"
+                android:title="Account Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_eject_black"
+                android:title="Log out" />
+        </menu>
+    </item>
+</menu>
